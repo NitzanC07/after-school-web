@@ -1,0 +1,97 @@
+.custom-btn {
+  padding: 25px 50px;
+  margin: 30px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px gray;
+  color: white;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.custom-btn:hover {
+    box-shadow: 0px 0px 15px yellow, 0px 0px 50px gray;
+}
+
+.btn1 {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 0) 0%,
+    rgba(255, 0, 0) 100%
+  );
+}
+.btn2 {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 0, 255) 0%,
+    rgba(255, 255, 0) 100%
+  );
+}
+.btn3 {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 255) 0%,
+    rgba(220, 220, 255) 50%,
+    rgba(0, 0, 255) 100%
+  );
+}
+.btn4 {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 50, 0) 0%,
+    rgba(0, 255, 0) 50%,
+    rgba(0, 50, 0) 100%
+  );
+}
+.btn5 {
+  background: linear-gradient(
+    45deg,
+    rgba(50, 50, 0) 0%,
+    rgba(255, 255, 0) 50%,
+    rgba(50, 50, 0) 100%
+  );
+}
+.btn6 {
+  background: linear-gradient(
+    315deg,
+    rgba(50, 0, 0) 0%,
+    rgba(255, 0, 0) 50%,
+    rgba(50, 0, 0) 100%
+  );
+}
+.btn7 {
+  background: linear-gradient(
+    45deg,
+    rgba(0, 50, 50) 0%,
+    rgba(0, 255, 255) 50%,
+    rgba(0, 50, 50) 100%
+  );
+}
+.btn8 {
+  background: linear-gradient(
+    315deg,
+    rgba(255, 0, 175) 0%,
+    rgba(175, 0, 255) 50%,
+    rgba(255, 0, 175) 100%
+  );
+}
+.btn9 {
+  background: linear-gradient(
+    45deg,
+    rgb(255, 150, 255) 0%,
+    rgb(150, 0, 150) 25%,
+    rgb(255, 150, 255) 50%,
+    rgb(150, 0, 150) 75%,
+    rgb(255, 150, 255) 100%
+  );
+}
+.btn9:hover {
+    background: linear-gradient(
+    45deg,
+    rgb(150, 0, 150) 0%,
+    rgb(255, 150, 255) 25%,
+    rgb(150, 0, 150) 50%,
+    rgb(255, 150, 255) 75%,
+    rgb(150, 0, 150) 100%
+  );
+}
