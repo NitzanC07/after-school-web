@@ -1,5 +1,7 @@
 # HTML & CSS course
 
+In this course, I will teach the fundamental concepts of building webpages using HTML and CSS. This is a beginner-friendly course and does not require any prior knowledge of web development. The target audience is elementary school students, but anyone looking to take their first step into the field of web development can benefit from this course.
+
 ## What we will learn?
 
 - Introduction to web development.
@@ -19,3 +21,7 @@
 - The `head` element.
 - Different methods of styling: Inline, internal and external CSS.
 - Introduction to Java Script.
+
+## Navigation in the course materials
+
+You can access the materials for each lesson in the branches of this repository.
