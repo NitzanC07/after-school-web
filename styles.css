@@ -2,31 +2,88 @@
 https://colorhunt.co/palette/781c689a0680ffd39afff5e1
 #781C68, #9A0680, #FFD39A, #FFF5E1
  */
-* {
-  direction: rtl;
+
+ body {
+    direction: rtl;
+    margin: 0;
+    background-color: #FFF5E1;
 }
 
-ul, ol{
-    width: 400px;
-    border: 2px solid #781c68;
-    border-radius: 15px;
-    padding: 25px;
-}
-
-h1, h2, h3, li {
+h1 {
+    direction: ltr;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 22px;
-    color: #781c68;
-}
-
-li {
-    font-size: 18px;
+    font-size: 36px;
+    line-height: 26px;
+    margin: 30px 0 20px;
     color: #781C68;
-    margin: 5px;
+    text-shadow: 0px 0px 10px #FFD39A;
 }
 
-li:hover {
-    background-color: #FFD39A;
-    box-shadow: 4px 4px 6px gray;
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    line-height: 30px;
+    margin: 0 0 40px;
+    color: #781C68;
+    text-shadow: 0px 0px 10px #FFD39A;
 }
 
+.card h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 10px 0 0;
+    color: #FFD39A;
+    text-shadow: 0px 0px 13px #FFF5E1;
+    letter-spacing: 6px;
+}
+
+.card h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 0 5px;
+    color: #FFD39A;
+}
+
+.card p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFD39A;
+    margin: 0 0 15px;
+    opacity: 0.05;
+    transition: 0.5s;
+}
+
+.card p:hover {
+    opacity: 1;
+}
+
+.container-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+    margin: 0 auto;
+    gap: 5px;
+}
+
+.card {
+    width: 300px;
+    background-color: #781C68;
+    color: #fff;
+    border: 7px solid #FFF5E1;
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 5px 8px;
+    box-shadow: 0px 0px 5px #808080;
+    transition: 0.5s;
+}
+
+.card:hover {
+    box-shadow: 6px 6px 25px #808080;
+    border-color: #FFD39A;
+}
