@@ -1,5 +1,8 @@
-Lesson 3: Lists
+# Lesson 3: Lists
 
-- Unordered list
-- Ordered list
+## What we will learn in thie lesson?
+
+- Unordered list.
+- Ordered list.
 - Parent-children relationship of element.
+- Nested lists.
