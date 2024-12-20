@@ -27,3 +27,6 @@ In this course, I will teach the fundamental concepts of building webpages using
 You can access the materials for each lesson in the branches of this repository.
 
 ## Resources
+
+- After School website
+- Articles in NCL website
