@@ -25,3 +25,5 @@ In this course, I will teach the fundamental concepts of building webpages using
 ## Navigation in the course materials
 
 You can access the materials for each lesson in the branches of this repository.
+
+## Resources
